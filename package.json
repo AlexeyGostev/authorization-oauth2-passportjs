@@ -1,0 +1,25 @@
+{
+  "name": "authorization-oauth2-passportjs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "mongoose": "^4.12.0",
+    "morgan": "~1.8.1",
+    "nconf": "^0.8.5",
+    "oauth2orize": "^1.10.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "winston": "^2.4.0"
+  }
+}
